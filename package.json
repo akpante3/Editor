@@ -1,0 +1,29 @@
+{
+  "name": "editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon --ignore __tmp__/ server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akpante3/Editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akpante3/Editor/issues"
+  },
+  "homepage": "https://github.com/akpante3/Editor#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

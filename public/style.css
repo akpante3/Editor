@@ -1,0 +1,51 @@
+.container {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.splitter-container, .splitter-container1, .splitter-container2, .splitter-container3 {
+  background-color: #3F51B5;
+  height: 750px;
+  width: calc(100% - 55px);
+}
+.CodeMirror {
+  width: 1500px;
+  height: 100%;
+}
+.left {
+  background-color:  white;
+}
+.right {
+  overflow: hidden;
+  position: relative;
+}
+.side-bar {
+  height: 100%;
+  width: 50px;
+  background-color: rgb(245, 245, 245);
+  border-right: 1px solid rgb(221, 221, 221);
+}
+.console {
+  padding-top:10px;
+  padding-bottom:10px;
+  width:100%;
+  min-height:100%;
+  background:#1a1a1a;
+  margin:auto;
+}
+.pconsole {
+  margin-left:10px;
+  text-align: left;
+  color:#e6e6e6;
+  font-family:"Ubuntu Mono" !important;
+}
+.indent {
+  text-indent: 10px;
+}
