@@ -10,7 +10,7 @@
         leftSide.css('background-color', '#ffffff');
         leftSide.css('width', '500px');
 
-        rightSide.css('background-color', '#FFEB3B');
+        rightSide.css('background-color', '#ffffff');
         rightSide.css('flex', '1');
 
         // Inject splitter bar

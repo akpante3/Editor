@@ -31,6 +31,8 @@ html, body {
   width: 50px;
   background-color: rgb(245, 245, 245);
   border-right: 1px solid rgb(221, 221, 221);
+  box-sizing: border-box;
+  padding: 0px 10px;
 }
 .console {
   padding-top:10px;
@@ -48,4 +50,12 @@ html, body {
 }
 .indent {
   text-indent: 10px;
+}
+.side-bar-item {
+  margin-top: 15px;
+  text-align: center;
+}
+svg {
+  width: 22px;
+  color: rgb(179, 180, 179);
 }

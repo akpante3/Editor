@@ -3,6 +3,6 @@ const router = express.Router();
 const { runCode } = require('../controller/code.js')
 
 
-router.route('/').get(runCode)
+router.route('/').post(runCode)
 
 module.exports = router
