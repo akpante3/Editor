@@ -17,6 +17,11 @@
         <script src="SplitterBar.js"></script>
     </head>
     <body>
+        <nav class="nav-bar">
+            <div class="run-button" onclick="submit_html()">
+                <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg fill="white" height="16px" id="Layer_1" style="enable-background:new 0 0 16 16;" version="1.1" viewBox="0 0 16 16" width="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M1,14c0,0.547,0.461,1,1,1c0.336,0,0.672-0.227,1-0.375L14.258,9C14.531,8.867,15,8.594,15,8s-0.469-0.867-0.742-1L3,1.375  C2.672,1.227,2.336,1,2,1C1.461,1,1,1.453,1,2V14z"/></svg>
+            </div>
+        </nav>
         <div class="container">
             <div class="side-bar">
                <div class="side-bar-item"><svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.908 20.614"><defs class="icon-svg"></defs><g><path d="M10.4.937H.9v18.74H17.094V7.608ZM15.6,18.1H2.422V2.51H9.554V8.124H15.6Z"></path></g></svg></div>
@@ -40,7 +45,6 @@
                 </div>
             </div>
         </div>
-        <button onclick="submit_html()">click</button> 
     </body>
     <script>
 
@@ -62,9 +66,6 @@
         }, {
             greetings: 'My First Terminal'
         });
-
-        term.echo('foo');
-
 
         function submit_html() {
 

@@ -12,8 +12,8 @@ html, body {
 }
 .splitter-container, .splitter-container1, .splitter-container2, .splitter-container3 {
   background-color: #3F51B5;
-  height: 750px;
-  width: calc(100% - 55px);
+  height: 100%;
+  width: calc(100% - 50px);
 }
 .CodeMirror {
   width: 1500px;
@@ -51,9 +51,32 @@ html, body {
 .indent {
   text-indent: 10px;
 }
+.nav-bar {
+  background-color: rgb(245, 245, 245);
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  /* display: flex; */
+}
 .side-bar-item {
   margin-top: 15px;
   text-align: center;
+}
+.run-button {
+  text-align: center;
+  padding-top: 15px;
+  width: 80px;
+  background-color: #addbba;
+  height: 100%;
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: 1s;
+  /* float: right; */
+}
+.run-button:hover {
+  background-color: #76a082;
+  /* float: right; */
 }
 svg {
   width: 22px;
